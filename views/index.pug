@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content ='width=device-width, initial-scale=1')
+    link(rel='icon', href='../images/favicon-32x32.png', type='image/x-icon')
+    link(rel='stylesheet', href='/styles/main.css')
+    body
+        .container
+            .section
+                - const myAttributes = {"src" : "../images/image-qr-code.png", "alt": "QR photo"}
+                img&attributes(myAttributes)
+                .inner-div
+                    h2 Improve your front-end skills by building projects
+                    p Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
